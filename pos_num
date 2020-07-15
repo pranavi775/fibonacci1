@@ -1,0 +1,13 @@
+list1=[12,-7,5,64,-14]
+list3=[ None]
+for i in list1 :
+    if i>0:
+        print(i,end=",")
+print("\n")
+list2=[12,14,-95,3]
+#using while loop
+n=0
+while n<len(list2):
+    if list2[n]>0:
+        print(list2[n],end=",")
+    n=n+1
